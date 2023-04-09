@@ -49,7 +49,7 @@ para_work(input_text)
 // //*======================================================*//
 // //Question:4
 
-function addListItem(afshan) {
+function addListItem(Ali) {
     const ul = document.querySelector('ul'); // Get the unordered list element
     const li = document.createElement('li'); // Create a new list item element
     li.textContent = afshan; // Set the text content of the list item
@@ -63,7 +63,7 @@ function addListItem(afshan) {
 localStorage.clear()
 
 let object_1 = {
-    name:"Afshan",
+    name:"Ali",
     age: 23,
     phone_no:"03492991343",
     height:"5",
@@ -75,7 +75,7 @@ let object_1 = {
 
 
 let object_2 = {
-    name:"ayesha",
+    name:"usama",
     age: 15,
     phone_no:"94500684",
     height:"4'3",
@@ -87,7 +87,7 @@ let object_2 = {
 
 
 let object_3 = {
-    name:"fizza",
+    name:"zubair",
     age: 14,
     phone_no:"94500684",
     height:"5'6",
@@ -103,7 +103,7 @@ function object_saving(key , value){
 }
 
 
-object_saving("data of Afshan" , object_1);
+object_saving("data of zubair" , object_1);
 
 // // //*======================================================*//
 
